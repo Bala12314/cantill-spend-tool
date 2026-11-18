@@ -1,1 +1,8 @@
-{"company":"B","data_dir":"./data","output":"./outputs/Abhishek_Kaushal__B.csv"}
+{
+  "companies": {
+    "B": {
+      "data_dir": "./data",
+      "output": "./outputs/Abhishek_Kaushal__B.csv"
+    }
+  }
+}
