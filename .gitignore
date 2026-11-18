@@ -1,8 +1,16 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
+venv/
+.env
 *.joblib
-# Confidential task inputs — never commit
-/data/*.csv
-/data/*.xlsx
-/data/*.xls
+
+# Confidential task inputs: never commit the local source-data directory
+/data/
+data/
+
+# Local runtime artifacts
+.pytest_cache/
+.mypy_cache/
+.DS_Store
