@@ -1,5 +1,5 @@
 {
-  "outputs/Abhishek_Kaushal__A.csv": {
+  "Abhishek_Kaushal__A.csv": {
     "rows": 65549,
     "columns": [
       "record_id",
@@ -18,7 +18,7 @@
     "blank_supplier_key": 0,
     "blank_item_key": 0
   },
-  "outputs/Abhishek_Kaushal__B.csv": {
+  "Abhishek_Kaushal__B.csv": {
     "rows": 41028,
     "columns": [
       "record_id",
