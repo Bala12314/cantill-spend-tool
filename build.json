@@ -1,0 +1,7 @@
+{
+  "data_dir": "./data",
+  "companies": {
+    "A": {"data_dir": "./data", "output": "./outputs/Abhishek_Kaushal__A.csv"},
+    "B": {"data_dir": "./data", "output": "./outputs/Abhishek_Kaushal__B.csv"}
+  }
+}

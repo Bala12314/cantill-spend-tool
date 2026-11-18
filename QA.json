@@ -1,0 +1,40 @@
+{
+  "outputs/Abhishek_Kaushal__A.csv": {
+    "rows": 65549,
+    "columns": [
+      "record_id",
+      "include",
+      "exclusion_reason",
+      "supplier_key",
+      "item_key",
+      "spend",
+      "l1",
+      "l2",
+      "l3",
+      "l4",
+      "confidence"
+    ],
+    "duplicate_record_ids": 0,
+    "blank_supplier_key": 0,
+    "blank_item_key": 0
+  },
+  "outputs/Abhishek_Kaushal__B.csv": {
+    "rows": 41028,
+    "columns": [
+      "record_id",
+      "include",
+      "exclusion_reason",
+      "supplier_key",
+      "item_key",
+      "spend",
+      "l1",
+      "l2",
+      "l3",
+      "l4",
+      "confidence"
+    ],
+    "duplicate_record_ids": 0,
+    "blank_supplier_key": 0,
+    "blank_item_key": 0
+  }
+}
