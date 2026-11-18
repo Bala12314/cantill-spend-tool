@@ -1,11 +1,8 @@
-import argparse, json, os, re, time, hashlib
+import argparse, json, re, time, hashlib
 from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.svm import LinearSVC
-
-ROOT=Path(__file__).resolve().parents[2]
 
 def norm(s):
     s='' if pd.isna(s) else str(s).upper()
@@ -14,9 +11,6 @@ def norm(s):
 
 def stable(prefix, s):
     return prefix+'-'+hashlib.sha1(norm(s).encode()).hexdigest()[:10]
-
-def first(x):
-    return x.iloc[0] if len(x) else None
 
 def canon_item(x):
     s='' if pd.isna(x) else str(x)
